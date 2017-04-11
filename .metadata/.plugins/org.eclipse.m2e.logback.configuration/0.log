@@ -297,3 +297,31 @@
 2017-04-11 19:27:53,379 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\main\resources
 2017-04-11 19:27:53,380 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-04-11 19:27:53,380 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\test\resources
+2017-04-11 19:45:51,285 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:45:51,288 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\main\resources
+2017-04-11 19:45:51,290 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:45:51,291 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\test\resources
+2017-04-11 19:46:12,233 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:46:12,235 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\main\resources
+2017-04-11 19:46:12,236 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:46:12,236 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\test\resources
+2017-04-11 19:46:38,698 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:46:38,698 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\main\resources
+2017-04-11 19:46:38,698 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:46:38,698 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\test\resources
+2017-04-11 19:47:02,206 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:47:02,206 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\main\resources
+2017-04-11 19:47:02,206 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:47:02,206 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\test\resources
+2017-04-11 19:47:27,354 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:47:27,354 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\main\resources
+2017-04-11 19:47:27,355 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 19:47:27,356 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\test\resources
+2017-04-11 20:12:13,496 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 20:12:13,503 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\main\resources
+2017-04-11 20:12:13,506 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 20:12:13,507 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\test\resources
+2017-04-11 20:12:38,083 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 20:12:38,083 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\main\resources
+2017-04-11 20:12:38,084 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-11 20:12:38,085 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\study\Java\Datastructure\agx-Datastructure\src\test\resources

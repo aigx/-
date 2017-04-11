@@ -1,7 +1,6 @@
 package com.agx.Bag;
 
 import java.util.EmptyStackException;
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Random;
@@ -15,7 +14,7 @@ public class ArrayBag implements BagADT{
 	private final int DEFAULT_CAPACITY=100;
 	private Object[] contents;
 	private static Random rand = new Random();
-	//具体方法介绍见接口
+	
 	public ArrayBag(){
 		contents = new Object[DEFAULT_CAPACITY];
 		count = 0;
