@@ -1,0 +1,10 @@
+package com.agx.Bag;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		BagADT bag = new ArrayBag();
+		bag.add(new String("1"));
+	}
+}

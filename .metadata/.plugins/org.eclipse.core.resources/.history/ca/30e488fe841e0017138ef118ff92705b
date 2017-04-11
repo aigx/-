@@ -1,0 +1,19 @@
+package com.agx.Bag;
+/*
+ * 该接口声明了Bag集合的面向用户的接口
+ * 
+ * */
+public interface BagADT {
+
+	//向集合中添加一个对象
+	public void add(Object element);
+	
+	//随机的从袋中删除一个元素
+	public Object removeRandom();
+	
+	//从集合中删除一个元素
+	public void remove(Object element);
+	
+	//合并两个袋中的元素，并创建一个新的袋
+	public BagADT union(BagTDA set);
+}

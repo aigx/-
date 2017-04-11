@@ -1,0 +1,17 @@
+package com.agx.Bag;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		BagADT bag = new ArrayBag();
+		bag.add(new String("1"));
+		bag.add(new String("2"));
+		
+		BagADT bag1 = new ArrayBag();
+		bag1.add(new String("3"));
+		bag1.add(new String("4"));
+			
+		System.out.println(bag1);
+	}
+}

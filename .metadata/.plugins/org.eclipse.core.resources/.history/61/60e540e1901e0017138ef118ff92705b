@@ -1,0 +1,74 @@
+package com.agx.Bag;
+
+import java.util.Iterator;
+import java.util.Random;
+
+public class ArrayBag implements BagADT{
+
+	private int count;
+	private final int NOT_FOUND=-1;
+	private final int DEFAULT_CAPACITY=100;
+	private Object[] contents;
+	private static Random rand = new Random();
+	
+	public ArrayBag(){
+		contents = new Object[DEFAULT_CAPACITY];
+		count = 0;
+	}
+	
+	public ArrayBag(int capacity) {
+		contents = new Object[capacity];
+		count = 0;
+	}
+	
+	public void add(Object element) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void addAll(BagADT bag) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Object removeRandom() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void remove(Object element) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public BagADT union(BagADT set) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean contains(Object target) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean equals(BagADT bag) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public int size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public Iterator iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
