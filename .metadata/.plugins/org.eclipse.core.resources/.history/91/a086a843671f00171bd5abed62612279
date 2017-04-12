@@ -1,11 +1,7 @@
 package com.agx.maze;
 
 import java.util.Random;
-/*
- * 迷宫可以看出递归在探索的时候有用，即可以把下一个状态当作初始状态来处理，
- * 汉诺塔还有点蒙
- * 
- * */
+
 public class Maze {
 
 	private final int TRIED = 3;

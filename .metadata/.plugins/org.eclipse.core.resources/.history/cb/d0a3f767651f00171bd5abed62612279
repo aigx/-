@@ -1,0 +1,14 @@
+package com.agx.solve;
+
+public class Solve {
+
+	private int totlenum;
+	
+	public Solve(int totlenum){
+		this.totlenum = totlenum;
+	}
+	
+	public void moveS(int totle, int start, int end, int temp){
+		
+	}
+}

@@ -1,0 +1,21 @@
+package com.agx.solve;
+
+public class Solve {
+
+	private int totlenum;
+	
+	public Solve(int totlenum){
+		this.totlenum = totlenum;
+	}
+	
+	public void moveS(int totle, int start, int end, int temp){
+		
+		if(totle == 1){
+			printS(start,end);
+		}
+		
+	}
+	public void printS(int start,int end){
+		System.out.println("把一个圆盘从"+start+"移动到"+end);
+	}
+}

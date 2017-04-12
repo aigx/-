@@ -1,0 +1,10 @@
+package com.agx.solve;
+
+public class UserSolve {
+
+	public static void main(String[] args) {
+		Solve s = new Solve(4);
+		s.moveS(4, 1, 3, 2);
+		
+	}
+}
