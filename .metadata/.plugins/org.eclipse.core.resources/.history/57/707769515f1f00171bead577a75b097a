@@ -1,0 +1,33 @@
+package com.agx.maze;
+
+public class UserMaze {
+
+	public static void main(String[] args) {
+		
+//		Maze maze = new Maze();
+//		System.out.println("当前迷宫：\n"+maze);
+//		boolean b = maze.trygo(0, 0);
+//		if(b == true){
+//			System.out.println("成功通过迷宫");
+//		}else if(b ==false){
+//			System.out.println("迷宫通过失败");
+//		}
+//		System.out.println(maze);
+		
+		int i = 0;
+		int a = 0;
+		for(a = 0; a < 2000000; a++){
+			Maze maze = new Maze();
+			boolean b = maze.trygo(0, 0);
+			if(b == true){
+				i++;
+			}else if(b ==false){
+				
+			}
+			
+		}
+		System.out.println(a);
+		System.out.println(i);
+		
+	}
+}

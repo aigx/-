@@ -1,0 +1,64 @@
+package com.agx.maze;
+
+public class Maze {
+
+	private final int TRIED = 3;
+	private final int PATH = 7;
+	
+	private int[][] grid = {
+		{1,1,1,0,1,1,0,0,0,1,1,1,1},
+		{1,0,1,1,1,0,1,1,1,1,0,0,1},
+		{0,0,0,0,1,0,1,0,1,0,1,0,0},
+		{1,1,1,0,1,1,1,0,1,0,1,1,1},
+		{1,0,1,0,0,0,0,1,1,1,0,0,1},
+		{1,0,1,1,1,1,1,1,0,1,1,1,1},
+		{1,0,0,0,0,0,0,0,0,0,0,0,0},	
+		{1,1,1,1,1,1,1,1,1,1,1,1,1},	
+	};
+	
+	public boolean trygo(int col,int column){
+		boolean down = false;
+		if(cango(col,column)){
+			grid[col][column] = TRIED;
+			if(col==grid.length-1&&column==grid[row].length-1){
+				
+			}
+			if(cango(col-1,column)){
+				trygo(col-1,column);
+			}else if(cango(col+1,column)){
+				trygo(col+1,column);
+			}else if(cango(col,column-1)){
+				trygo(col,column-1);
+			}else if(cango(col,column+1)){
+				trygo(col,column+1);
+			}
+		}
+		
+		return down;
+	}
+	
+	public boolean cango(int col,int column){
+		boolean go = false;
+		if(col>=0&&col<=grid.length-1&&column>=0&&column<=grid[col].length){
+			if(grid[col][column]==1){
+				go = true;
+			}
+		}
+		
+		return go;
+	}
+	
+	@Override
+	public String toString(){
+		String result="";
+		for(int i = 0;i<8;i++){
+			for(int a = 0;a<13;a++){
+				result = result + " " + grid[i][a];
+			}
+			result += "\n";
+		}
+		return result;
+		
+	}
+	
+}
