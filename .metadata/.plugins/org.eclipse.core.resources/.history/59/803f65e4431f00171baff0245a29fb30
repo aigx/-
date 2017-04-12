@@ -1,0 +1,79 @@
+package com.agx.Bag;
+
+import java.util.Iterator;
+import java.util.Random;
+
+/*
+ * 使用链表的方式实现袋集合
+ * */
+public class LinkBag implements BagADT{
+	
+	//链表中的内容数
+	private int count;
+	//产生一个随机数
+	private static Random rand = new Random();
+	//制造一个链表节点，指向第一个链表
+	private contentsNode firstNode;
+
+	public LinkBag() {
+
+		count=0;
+		firstNode = null;
+	}
+	
+	
+	public void add(Object element) {
+		//将新的元素添加到顶部，由于没有排序，所以添加到顶部就可以
+		//如果理解不了建议画个图就解释了
+		contentsNode node = new contentsNode(element);
+		node.setNext(firstNode);
+		firstNode = node;
+		count++;
+	}
+
+	public void addAll(BagADT bag) {
+
+		
+	}
+
+	public Object removeRandom() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object remove(Object element) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public BagADT union(BagADT set) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean contains(Object target) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean equals(BagADT bag) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public int size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public Iterator iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

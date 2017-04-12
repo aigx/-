@@ -4,8 +4,12 @@
 <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
 <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
 <fullyQualifiedTypeName name="com.agx.Bag.ArrayIteritor"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="com.agx.Bag.BagADT"/>
 <fullyQualifiedTypeName name="com.agx.Bag.ArrayBag"/>
+<fullyQualifiedTypeName name="com.agx.Bag.BagADT"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.agx.Bag.LinkBag"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="com.agx.Bag.LinkIterator"/>
+<fullyQualifiedTypeName name="com.agx.Bag.contentsNode"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

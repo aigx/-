@@ -1,0 +1,24 @@
+package com.agx.Bag;
+
+import java.util.Iterator;
+
+public class LinkIterator implements Iterator {
+
+	private contentsNode content;
+	private int count;
+	
+	public LinkIterator(contentsNode arg0, int arg1){
+		
+	}
+	
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public Object next() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

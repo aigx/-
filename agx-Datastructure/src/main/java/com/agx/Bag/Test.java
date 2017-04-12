@@ -4,11 +4,15 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		BagADT bag = new ArrayBag();
+		for(int i = 0;i<10 ;i++){
+			
+		
+		
+		BagADT bag = new LinkBag();
 		bag.add(new String("1"));
 		bag.add(new String("2"));
 		
-		BagADT bag1 = new ArrayBag();
+		BagADT bag1 = new LinkBag();
 		bag1.add(new String("3"));
 		bag1.add(new String("4"));
 			
@@ -32,12 +36,12 @@ public class Test {
 		System.out.println("内数量："+bag.size());
 		
 		System.out.println("检查两个包是否相同");
-		BagADT bag3 = new ArrayBag();
+		BagADT bag3 = new LinkBag();
 		bag3.add(new String("3"));
 		System.out.println(bag3);
 		System.out.println(bag);
 		System.out.println(bag.equals(bag3));
-
+		}
 		
 		
 	}
